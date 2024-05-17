@@ -7,11 +7,11 @@ pip install dcinside_scraper
 
 or
 
-pip install git+https://github.com/yourusername/dcinside_scraper.git
+pip install git+https://github.com/kes09021/dcinside_scraper.git
 
 ## Usage
 
-dcinside-scraper 'https://gall.dcinside.com/mgallery/board/lists/?id=thesingularity' 1 5 output.tsv --sleep 1
+dcinside-scraper 'gallery_url' start_page end_page output.tsv --sleep 1
 
 - `gallery_url`: The URL of the DCInside gallery
 - `start_page`: The starting page number
